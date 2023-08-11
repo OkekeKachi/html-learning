@@ -1,9 +1,81 @@
-.red-text{
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+div.heading{
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+div.heading h1{
+    color: white;
+    border: 2px white solid;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+header img{
+    width: 100%;
+    border-bottom: 8px red solid;
+}
+div.links{
+    background-color: grey;
+    text-align: center;
+    
+}
+div.links ul li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+div.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+div.content{
+    text-align: center;
+    margin: 40px;
+}
+div.content h2{
     color: red;
+    font-size: 50px;
 }
-.font-sm{
-    font-size: 10px;
+div.content p{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 50px;
 }
-p.text-r{
-    text-align: right;
+div.form-container{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 40px;
+}
+form{
+    text-align: center;
+}
+div.form-container form label{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+div.form-container form input{  
+    border: 4px red solid;
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+footer div.foot{
+    background-color: red;
+    text-align: center;
+}
+
+footer div.foot h2{
+    font-size: 30px;
+    color: white;
 }

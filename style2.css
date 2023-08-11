@@ -1,0 +1,58 @@
+*{
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+}
+
+header div.heading{
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+}
+header div.heading h1{
+    color: white;
+    border: 4px white solid;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;    
+}
+div.links{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+div.links ul li{
+    display: inline-block;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+div.links ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+div.info{
+    text-align: center;
+    padding: 20px;
+}
+div.info h1{    
+    color: red;
+}
+div.images img{    
+    border-bottom: 8px red solid;    
+}
+#images2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer div.footer-container{
+    background-color: red;
+    text-align: center;
+    padding: 14px;
+}
+footer div.footer-container h2{
+    color: white;
+
+}

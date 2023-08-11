@@ -111,7 +111,7 @@ div.links2 ul li{
 }
 div.links2 ul li a{
     text-decoration: none;
-    color: white;    
+    color: white;        
 }
 div.info{
     text-align: center;
@@ -123,6 +123,11 @@ div.info h1{
 div.images img{    
     border-bottom: 8px red solid;    
 }
+div.images img:hover{    
+    border-bottom: none;
+    border-top: 8px red solid;
+}
+
 #images2{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -139,4 +144,5 @@ footer div.footer-container h2{
 .imageHolder{
     display: inline-block;
     padding-left: 20px;
+    
 }
